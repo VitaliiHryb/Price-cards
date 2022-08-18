@@ -1,0 +1,47 @@
+.price-card_basic {
+  .price-card__price {
+    background-color: $basic-font-color;
+  }
+
+  .price-card__order-btn {
+    background-color: $basic-font-color;
+    color: $text-color-white;
+  }
+
+  .price-card__option-item::before {
+    content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+    margin: 0 22px;
+  }
+}
+
+.price-card_business {
+  .price-card__price {
+    background-color: $business-font-color;
+  }
+
+  .price-card__order-btn {
+    background-color: $business-font-color;
+    color: $text-color-white;
+  }
+
+  .price-card__option-item::before {
+    content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+    margin: 0 22px;
+  }
+}
+
+.price-card_webshop {
+  .price-card__price {
+    background-color: $webshop-font-color;
+  }
+
+  .price-card__order-btn {
+    background-color: $webshop-font-color;
+    color: $text-color-white;
+  }
+
+  .price-card__option-item::before {
+    content: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+    margin: 0 22px;
+  }
+}
