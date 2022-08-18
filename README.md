@@ -1,6 +1,6 @@
 # Price-Cards
 
-### [Site link](https://vitaliihryb.github.io/Price-cards-/)
+### [Site link](https://vitaliihryb.github.io/Price-cards/)
 
 ### The tech stack is:
 
