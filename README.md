@@ -1,6 +1,6 @@
-# Vangoux
+# Price-Cards
 
-### [Site link](https://vitaliihryb.github.io/Foundation/)
+### [Site link](https://vitaliihryb.github.io/Price-cards-/)
 
 ### The tech stack is:
 
