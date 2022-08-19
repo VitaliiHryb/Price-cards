@@ -2,6 +2,8 @@
 
 ### [Site link](https://vitaliihryb.github.io/Price-cards/)
 
+#### Layout supports only 1440px
+
 ### The tech stack is:
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
