@@ -9,7 +9,7 @@
   background: #334247;
   overflow: hidden;
 }
-.price-card_business {
+.price-card:nth-child(2) {
   position: relative;
 }
 .price-card__popular-wrap {
@@ -77,41 +77,38 @@
   border: none;
   border-radius: 20px;
 }
-
-.price-card_basic .price-card__price {
+.price-card__price_basic {
   background-color: #5bb189;
 }
-.price-card_basic .price-card__order-btn {
-  background-color: #5bb189;
+.price-card__price_business {
+  background-color: #3a6ba5;
+}
+.price-card__price_webshop {
+  background-color: #ec632a;
+}
+.price-card__order-btn {
   color: #ffffff;
 }
-.price-card_basic .price-card__option-item::before {
+.price-card__order-btn_basic {
+  background-color: #5bb189;
+}
+.price-card__order-btn_business {
+  background-color: #3a6ba5;
+}
+.price-card__order-btn_webshop {
+  background-color: #ec632a;
+}
+.price-card__option-item::before {
+  margin: 0 22px;
+}
+.price-card__option-item_basic::before {
   content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
-  margin: 0 22px;
 }
-
-.price-card_business .price-card__price {
-  background-color: #3a6ba5;
-}
-.price-card_business .price-card__order-btn {
-  background-color: #3a6ba5;
-  color: #ffffff;
-}
-.price-card_business .price-card__option-item::before {
+.price-card__option-item_business::before {
   content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
-  margin: 0 22px;
 }
-
-.price-card_webshop .price-card__price {
-  background-color: #ec632a;
-}
-.price-card_webshop .price-card__order-btn {
-  background-color: #ec632a;
-  color: #ffffff;
-}
-.price-card_webshop .price-card__option-item::before {
+.price-card__option-item_webshop::before {
   content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
-  margin: 0 22px;
 }
 
 * {
